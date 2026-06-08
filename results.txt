@@ -1,0 +1,48 @@
+
+Customer Purchase Prediction - Categorical Encoding Results
+
+Label Encoding Accuracy:
+0.9000
+
+Label Encoding Confusion Matrix:
+[[4 0]
+ [1 5]]
+
+Label Encoding Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.80      1.00      0.89         4
+           1       1.00      0.83      0.91         6
+
+    accuracy                           0.90        10
+   macro avg       0.90      0.92      0.90        10
+weighted avg       0.92      0.90      0.90        10
+
+
+One-Hot Encoding Accuracy:
+0.8000
+
+One-Hot Encoding Confusion Matrix:
+[[3 1]
+ [1 5]]
+
+One-Hot Encoding Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.75      0.75      0.75         4
+           1       0.83      0.83      0.83         6
+
+    accuracy                           0.80        10
+   macro avg       0.79      0.79      0.79        10
+weighted avg       0.80      0.80      0.80        10
+
+
+One-Hot Encoded Columns:
+['Age', 'Gender_Male', 'City_Dallas', 'City_Kansas City', 'Profession_Engineer', 'Profession_Manager', 'Profession_Student', 'Profession_Teacher']
+
+Observations:
+1. Label Encoding converts categories into numbers like 0, 1, 2.
+2. Label Encoding can create false order between categories.
+3. One-Hot Encoding creates separate columns for each category.
+4. One-Hot Encoding is usually better for nominal data like Gender, City, and Profession.
+5. Logistic Regression is used here because Purchased is a binary output: 0 or 1.

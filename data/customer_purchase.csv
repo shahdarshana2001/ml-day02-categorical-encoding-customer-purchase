@@ -1,0 +1,11 @@
+Age,Gender,City,Profession,Purchased
+22,Female,Kansas City,Student,0
+25,Male,Dallas,Engineer,1
+30,Female,Chicago,Teacher,1
+35,Male,Kansas City,Doctor,1
+28,Female,Dallas,Engineer,0
+40,Male,Chicago,Doctor,1
+23,Female,Kansas City,Student,0
+45,Male,Dallas,Manager,1
+32,Female,Chicago,Teacher,1
+29,Male,Kansas City,Engineer,0
